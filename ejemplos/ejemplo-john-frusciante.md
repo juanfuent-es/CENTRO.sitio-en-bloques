@@ -1,75 +1,144 @@
 # Ejemplo: John Frusciante
 
-## Archivo sonoro y visual
+## Discografía solista estructurada
 
-**Tagline:** Un recorrido por discos, atmósferas y etapas.
+**Tagline:** Una discografía como registro de transformación.
 
-**Descriptor:** Este ejemplo muestra cómo estructurar un sitio sobre una obra musical amplia sin caer en una lista plana de álbumes. La clave está en elegir un enfoque: etapa, sonido, atmósfera, proceso o relación entre discos.
+**Descriptor:** Este ejemplo muestra cómo organizar una colección amplia de álbumes en una estructura consistente antes de convertirla en una página web. La clave está en definir qué información se repite en cada elemento y mantener una jerarquía clara.
 
 ## Objetivo
 
-Diseñar una página sencilla que presente una selección de discos o etapas de John Frusciante con una estructura clara, visualmente coherente y fácil de explorar.
+Construir un documento digital sobre la discografía solista de John Frusciante a partir de contenido investigado, ordenado en Markdown y preparado para transformarse después en HTML y CSS.
 
 ## Información inicial
 
 Entidades posibles:
 
 - álbum;
-- etapa;
-- canción;
-- colaboración;
-- sonido;
-- instrumento;
-- imagen de época;
-- referencia visual.
+- portada;
+- fecha de publicación;
+- track;
+- duración;
+- enlace de escucha;
+- reseña contextual;
+- fuente de consulta.
 
 Atributos por álbum:
 
 | Atributo | Función |
 |---|---|
-| Título | Identifica el disco |
-| Etapa | Ubica el momento creativo |
-| Descriptor | Resume atmósfera o búsqueda |
-| Canciones clave | Permite entrar al sonido |
-| Imagen de referencia | Ayuda a construir contexto visual |
-| Enlace | Conecta con escucha o fuente |
+| Portada | Identifica visualmente el álbum |
+| Título | Nombra cada elemento de la colección |
+| Recomendación de escucha | Propone una entrada al disco |
+| Fecha de publicación | Ubica el álbum cronológicamente |
+| Tracklist | Muestra la estructura interna del álbum |
+| Enlace | Conecta con la escucha |
+| Reseña | Da contexto físico, emocional o creativo |
 
 ## Intención comunicativa
 
-Presentar una entrada visual y sonora a una etapa o selección de discos, usando estructura, tipografía y color para comunicar atmósfera sin saturar de información.
+Presentar la discografía solista de John Frusciante como una colección organizada y navegable.
+
+El sitio no busca contar todo sobre John Frusciante, sino mostrar cómo su obra solista puede entenderse como una serie de etapas: grabación doméstica, deterioro, recuperación, producción expansiva, intimidad acústica y exploración electrónica.
+
+Ejemplo de enfoque:
+
+> Una discografía que no funciona sólo como lista de discos, sino como archivo de cambios físicos, emocionales y creativos.
 
 ## Mapa de sitio
 
 ```text
 Inicio
-  Hero
-  Contexto
-  Discos seleccionados
-  Canciones clave
-  Cierre / escucha
+  Hero / Introducción
+  Contexto del artista
+  Discografía
+    Álbum
+    Álbum
+    Álbum
+  Fuentes
+```
+
+Ejemplo aplicado:
+
+```text
+Inicio
+  John Frusciante
+  Discografía solista
+  Introducción breve
+
+Contexto
+  Quién es
+  Por qué importa su obra solista
+  Qué tipo de recorrido propone el sitio
+
+Discografía
+  2023 · : I I .
+  2023 · . I :
+  2020 · Maya
+  2014 · Enclosure
+  2012 · PBX Funicular Intaglio Zone
+  2009 · The Empyrean
+  2005 · Curtains
+  2004 · Inside of Emptiness
+  2004 · The Will to Death
+  2004 · Shadows Collide with People
+  2001 · To Record Only Water for Ten Days
+  1997 · Smile from the Streets You Hold
+  1994 · Niandra LaDes and Usually Just a T-Shirt
+
+Fuentes
+  Referencias consultadas
+  Criterios de selección
 ```
 
 ## Tono verbal
 
-- Íntimo.
-- Atmosférico.
+- Claro.
+- Contextual.
+- Documental.
 - Preciso.
-- Musical.
-- No enciclopédico.
+- No especulativo.
+- Sensible con temas de deterioro físico, adicción o salud emocional.
 
 Ejemplos de frases:
 
-- "Tres formas de escuchar una misma búsqueda."
-- "Discos como habitaciones sonoras."
-- "Una entrada mínima a una obra extensa."
+- "Cada álbum registra un momento distinto de búsqueda."
+- "Una discografía organizada como archivo sonoro y visual."
+- "Contenido estructurado antes de convertirse en interfaz."
+- "La obra solista permite leer cambios de sonido, cuerpo y contexto."
+- "No se romantiza el deterioro: se documenta el contexto."
+
+Ejemplo de tono aplicado:
+
+> Fuera de las estructuras de una banda y de las expectativas comerciales, la obra solista de John Frusciante funciona como un espacio de exploración personal. Cada álbum registra una forma distinta de relacionarse con la música, el cuerpo, la tecnología y la idea de transformación.
 
 ## Tono visual
 
 - Paleta reducida.
-- Tipografía display controlada.
-- Cuerpo legible.
-- Espacio para imágenes.
-- Composición editorial.
+- Jerarquía editorial.
+- Portadas como elemento visual principal.
+- Bloques repetibles por álbum.
+- Lectura clara antes que decoración.
+- Sensación de archivo musical, no de cartel promocional.
+- Contraste entre intimidad, ruido, fragilidad y estructura.
+
+Ejemplo visual:
+
+- Fondo claro o ligeramente cálido.
+- Texto oscuro para lectura larga.
+- Color acento para enlaces, fechas o navegación.
+- Portadas en formato consistente.
+- Mucho espacio entre álbumes para evitar saturación.
+- Cada álbum como una unidad independiente.
+
+Referencias visuales posibles:
+
+- Archivo musical.
+- Fanzine editorial.
+- Discografía comentada.
+- Timeline visual.
+- Libreto de álbum.
+- Catálogo de colección.
 
 ## Sistema visual posible
 
@@ -84,6 +153,14 @@ Ejemplos de frases:
 }
 ```
 
+Ejemplo de aplicación:
+
+- `--color-background` para dar sensación de papel o archivo.
+- `--color-text` para mantener lectura clara.
+- `--color-accent` para links de Spotify, fechas o navegación.
+- `--font-title` para títulos de álbumes.
+- `--font-base` para reseñas, tracklists y fuentes.
+
 ## Wireframe sugerido
 
 ```text
@@ -91,24 +168,58 @@ Ejemplos de frases:
   Título
   Tagline
   Descriptor
-  CTA: Escuchar / explorar
+  Navegación principal
 
 [ CONTEXTO ]
-  Breve introducción
+  Breve introducción sobre el artista y su obra solista
 
-[ DISCOS ]
-  Disco 1
-  Disco 2
-  Disco 3
+[ DISCOGRAFÍA ]
+  Álbum
+    Portada
+    Título
+    Fecha
+    Recomendación
+    Tracklist
+    Reseña
 
-[ CANCIONES ]
-  Lista comentada
+  Álbum
+    misma estructura
 
-[ CIERRE ]
-  Enlace a escucha o playlist
+[ FUENTES ]
+  Lista de referencias consultadas
+```
+
+Ejemplo aplicado:
+
+```text
+[ HERO ]
+  John Frusciante
+  Discografía solista
+  Una discografía como registro de transformación
+  CTA: Explorar álbumes
+
+[ CONTEXTO ]
+  Texto breve sobre su obra fuera de Red Hot Chili Peppers
+
+[ ÁLBUM ]
+  Portada
+  2009 · The Empyrean
+  Recomendación de escucha
+  Fecha de publicación
+  Tracklist con enlaces
+  Reseña contextual
+
+[ ÁLBUM ]
+  Misma estructura repetida
+
+[ FUENTES ]
+  Lista de fuentes y criterios de consulta
 ```
 
 ## Aprendizaje del ejemplo
 
-Un sitio musical no necesita documentar todo. Puede seleccionar una entrada específica: una etapa, tres discos, una atmósfera o una relación entre canciones. La estructura permite que el diseño no dependa solo de gusto visual.
+Un sitio web no empieza con diseño visual. Empieza con una estructura clara de información.
 
+Este ejemplo muestra cómo una colección extensa puede organizarse en Markdown mediante reglas consistentes. Después, esa estructura puede convertirse en HTML y recibir estilos sin perder orden, jerarquía ni sentido.
+
+La estructura repetible permite que cada álbum tenga el mismo tipo de información, pero que conserve su propio contexto.
