@@ -28,9 +28,8 @@
 
 ### Ejemplos de proceso
 
-- [Ejemplo: portafolio / perfil profesional](ejemplos/ejemplo-portafolio.md)
-- [Ejemplo: universo de The Mars Volta](ejemplos/ejemplo-mars-volta.md)
 - [Ejemplo: John Frusciante](ejemplos/ejemplo-john-frusciante.md)
+- [Ejemplo: universo de The Mars Volta](ejemplos/ejemplo-mars-volta.md)
 
 ## Qué se va a construir
 
